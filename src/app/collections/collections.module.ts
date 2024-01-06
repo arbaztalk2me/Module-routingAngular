@@ -13,6 +13,6 @@ import { CollectionHomeComponentComponent } from './collection-home-component/co
     CommonModule,
     CollectionsRoutingModule
   ],
-  exports:[CollectionHomeComponentComponent]
+  
 })
 export class CollectionsModule { }

@@ -1,3 +1,11 @@
-<app-element-home-component></app-element-home-component>
-<app-collection-home-component></app-collection-home-component>
-<router-outlet></router-outlet>
+<div class="ui container">
+  <div class="ui secondary pointing menu">
+    <a routerLink="element" routerLinkActive="active" class="item">Element</a>
+    <a routerLink="collections" routerLinkActive="active" class="item">Collection</a>
+    <a class="item">Upcoming Events</a>
+    <a class="item">Upcoming Events</a>
+  </div>
+  <div class="ui segment">
+    <router-outlet></router-outlet>
+  </div>
+</div>
