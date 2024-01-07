@@ -1,0 +1,13 @@
+<app-divider>
+    Modal Component
+</app-divider>
+<app-modal (close)="openModal()" *ngIf="opneModalVal">
+    <div modalTitle>I am a REUSABLE TITLE</div>
+    We've grabbed the following image from the
+</app-modal>
+<button (click)="openModal()">Open Modal</button>
+<app-divider>
+    Accordian Component
+    
+</app-divider>
+<app-accoedian [data]="data"></app-accoedian>
